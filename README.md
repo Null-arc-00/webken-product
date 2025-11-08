@@ -1,14 +1,18 @@
 これは [Next.js](https://nextjs.org) プロジェクトで [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app)によって作成された。  
 
 ## 最初に
-これは運を試すゲームです。  
-2D100を振り、左側の出目が、右側の出目より大きければ失敗、逆に小さければ成功。  
-クソゲーです。  
+Success or failure  
+左側のダイスが右側より小さい場合に成功、それ以外は失敗
 
-## コードについて (主観)
-基本的に**汚い**。  
-ファイルの分割をよくするのでおそらく**見づらい**。  
-一部コードに**gemini、github copilot**を使用(そこまで多くない)  
-ただ、ひとつ言わせてほしい  
+## 技術
+page.tsxとDiceRoll.module.tsxをメインに構成  
+globals.cssとlayout.tsx、CounterButton.module.cssでスタイルを指定  
+それ以外は全部実行などに必要なファイル  
 
-もともと分割されていたファイルをひとつにまとめれば冗長になるのはわかりきっている。冗長になって読むのがだるくなるのを防ぐためにファイル分割をするのだ。(適当)  
+使用したフレームワークなど  
+nextjs Typescript Tailwind CSS  
+
+ReactのState Callbackを使用して数字がランダムに高速で切り替わるアニメーションを実装  
+
+## 実行方法
+projectをpullしてきてcmdなどでプロジェクトにディレクトリを合わせ[npm run dev]を実行
