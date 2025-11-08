@@ -1,0 +1,22 @@
+.button {
+    /* ... その他のスタイル（背景色、パディングなど） ... */
+    background-color: #4CAF50; 
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.1s; 
+    border: 2px solid #388E3C; /* 枠線の太さ、種類、色を定義 */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* ボタンに立体感を持たせる */
+    border-radius: 5px; 
+}
+
+.button:hover {
+    background-color: #45a049;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); /* ホバーで影を強くする */
+}
+
+.button:active {
+    background-color: #3e8e41; 
+    transform: translateY(1px); 
+    box-shadow: none;
+}
