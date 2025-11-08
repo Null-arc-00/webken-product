@@ -13,6 +13,7 @@ globals.cssとlayout.tsx、CounterButton.module.cssでスタイルを指定
 nextjs Typescript Tailwind CSS  
 
 ReactのState Callbackを使用して数字がランダムに高速で切り替わるアニメーションを実装  
+コードの一部にgemini、github copilotを使用
 
 ## 実行方法
 projectをpullしてきてcmdなどでプロジェクトにディレクトリを合わせ[npm run dev]を実行
